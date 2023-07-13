@@ -1,4 +1,4 @@
-package com.joaovitoroli.iCrudify.cruditem;
+package com.joaovitoroli.iCrudify.model;
 
 import jakarta.persistence.*;
 

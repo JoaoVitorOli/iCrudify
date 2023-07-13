@@ -1,7 +1,7 @@
 package com.joaovitoroli.iCrudify.controller;
 
-import com.joaovitoroli.iCrudify.cruditem.Cruditem;
-import com.joaovitoroli.iCrudify.cruditem.CruditemRepository;
+import com.joaovitoroli.iCrudify.model.Cruditem;
+import com.joaovitoroli.iCrudify.repository.CruditemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
