@@ -5,7 +5,7 @@ Uma aplicação CRUD para estudar Java Spring
 
 ## Post
 ```bash
-POST /save
+POST /cruditems/save
 Content-Type: application/json
 
 {
@@ -16,12 +16,12 @@ Content-Type: application/json
 
 ## Get
 ```bash
-GET /
+GET /cruditems
 ```
 
 ## Put
 ```bash
-PUT /update/{id}
+PUT /cruditems/update/{id}
 Content-Type: application/json
 
 {
@@ -32,5 +32,5 @@ Content-Type: application/json
 
 ## Delete
 ```bash
-DELETE /delete/{id}
+DELETE /cruditems/delete/{id}
 ```
